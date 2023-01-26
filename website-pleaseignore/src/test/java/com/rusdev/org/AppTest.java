@@ -27,7 +27,7 @@ public class AppTest {
         // positiv
         $(new ByText("Create Account")).click();
         $(By.className("page-header")).shouldHave(Condition.text("Registration"));
-        sleep(3000);
+        sleep(1000);
 
 
 //      assertTrue( true );
